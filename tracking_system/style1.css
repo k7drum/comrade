@@ -1,0 +1,127 @@
+body{
+  font-family:"Arial", Serif;
+  background-color:#DDDDDD;
+  overflow-x: auto;
+}
+
+.nav_bar{
+  background-color:#85144b;
+  overflow:hidden;
+  height:63px;
+}
+
+.nav_bar a{
+  float: left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:18px;
+  
+}
+
+.nav_bar ul{
+  margin:8px 0 0 0;
+  list-style:none;
+}
+
+.nav_bar a:hover{
+  background-color:#F012BE;
+  color:#000;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#708090;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:#ccc;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:23px;
+  font-size:32px;
+  margin-left:50px;
+ 
+}
+
+.logo img{ 
+  position:absolute; 
+  margin:0 auto;
+  height:57px;
+  width:80px;
+  float: right;
+  top: 10px;
+  left: 50px;
+  
+}
+.nav a{
+  width:150;
+  display:block;
+  color:#527c47;
+  font-family: arial;
+  text-decoration: noon;
+  padding:20px 15px;
+  text-align:center;
+}
+
+.search-form{
+  margin-top:9px;
+  float:right;
+  margin-right:100px;
+}
+
+input[type=text] {
+  padding:7px;
+  border:noon;
+  font-size:16px
+  font-family:sans-serif; 
+}
+
+button{
+  float:right;
+  background: plum;
+  color: white;
+  border-radius:0 5px 5px 0;
+  cursor:pointer
+  position:ralative;
+  padding:7px;
+  border:noon;
+  font-size:16px
+  font-family:sans-serif;
+
+#main{
+  transition:margin-left 0.3s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+}
+
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+}
